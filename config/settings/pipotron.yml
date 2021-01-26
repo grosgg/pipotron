@@ -1,7 +1,7 @@
 pipotron:
   name: Pipotron Digital
   description: Les plus grands noms du marketing, de la communication et du journalisme se servent au quotidien du Pipotron Digital. Il fournit rapidement et en toute simplicité des annonces qui vous permettront de faire le buzz.
-  url: https://pipotron.sabu.fr
+  url: https://pipotron.herokuapp.com
   slug: digital
   profiles: 25
 fb:
