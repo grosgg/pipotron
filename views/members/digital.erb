@@ -1,0 +1,16 @@
+<% content_for :og_tags do %>
+  <meta property="og:title" content="<%= @pipo[:message].split(',')[2].split('.')[0].strip %>" />
+  <meta property="og:description" content="<%= @pipo[:message] %>" />
+  <meta property="og:url" content="<%= "#{settings.pipotron[:url]}/pipo/#{@pipo[:hash]}" %>" />
+  <meta property="og:image" content='<%= "#{settings.pipotron[:url]}/#{@pipo[:profile_pic_path]}" %>' />
+<% end %>
+
+<div class="row">
+  <div class="col-md-2">
+    <img class="pipo-profile-pic img-circle pull-right" src="<%= @pipo[:profile_pic_path] %>">
+  </div>
+  <div class="col-md-10">
+    <p class="pipo-message"><%= @pipo[:message] %></p>
+    <div class="fb-share-button" data-href='<%= "#{settings.pipotron[:url]}/pipo/#{@pipo[:hash]}" %>'></div>
+  </div>
+</div>

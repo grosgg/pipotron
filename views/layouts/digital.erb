@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <%= erb 'shared/head'.to_sym %>
+  <link href="/css/<%= settings.pipotron[:slug] %>.css" rel="stylesheet">
+  <%= yield_content :og_tags %>
+</head>
+<body>
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/"><%= settings.pipotron[:name] %></a>
+      </div>
+      <ul class="nav navbar-nav navbar-right hidden-xs">
+        <li><a href='<%= "/about" %>'>A propos</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class='container'>
+    <%= yield %>
+  </div>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('#btn-generate').click(function() {
+        $.getJSON("/generate", function( data ) {
+          console.log(data);
+          var pipo = $(".pipo:first-child").clone();
+          pipo.find('.pipo-message').html(data.pipo);
+          pipo.find('.pipo-profile-pic').attr('src', data.profile.pic);
+          pipo.find('.pipo-message-container').append("<div class='fb-share-button' data-href='<%= settings.pipotron[:url] %>/pipo/"+data.hash+"'></div>");
+          pipo.appendTo("#pipo-list").slideToggle();
+          FB.XFBML.parse();
+
+          $('#btn-generate').html(data.button);
+
+          <% if ENV['RACK_ENV'] == 'production' %>
+          ga('send', 'event', 'Pipotron', 'Generate', '<%= settings.pipotron[:name] %>');
+          <% end %>
+
+          $('body').animate({
+            scrollTop: $("#btn-generate").offset().top
+          }, 1000);
+        });
+      });
+    });
+  </script>
+
+  <% if ENV['RACK_ENV'] == 'production' %>
+  <%= erb 'shared/ga'.to_sym %>
+  <% end %>
+
+  <%= erb 'shared/fb'.to_sym %>
+</body>
+</html>

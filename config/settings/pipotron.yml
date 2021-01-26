@@ -1,0 +1,224 @@
+pipotron:
+  name: Pipotron Digital
+  description: Les plus grands noms du marketing, de la communication et du journalisme se servent au quotidien du Pipotron Digital. Il fournit rapidement et en toute simplicité des annonces qui vous permettront de faire le buzz.
+  url: https://pipotron.sabu.fr
+  slug: digital
+  profiles: 25
+fb:
+  app_id: 545096792300587
+  page_url: https://www.facebook.com/pipotron.digital
+
+
+button_labels:
+  - Une autre!
+  - Encore!
+  - Quel scoop!
+  - Incroyable!
+  - Fabuleux!
+  - Vraiment?
+  - En vous remerciant.
+  - Merci pour tout.
+  - C'est ça que je recherche!
+
+schema:
+  - intro
+  - cause_action
+  - cause_name
+  - cause_adjective
+  - cause_link
+  - cause_topic
+  - effect_subject
+  - effect_action
+  - effect_adjective
+  - effect_name
+  - effect_link
+  - effect_topic
+  - conclusion
+  - hashtag
+
+intro:
+  - Comme vous avez pû le constater sur la toile,
+  - Vous en avez certainement entendu parler,
+  - Tout le monde en parle en ce moment,
+  - C'est le sujet de toutes les conversations,
+  - Tous les acteurs du digital en discutent,
+  - Les blogs spécialisés le confirment,
+  - Cela fait la une cette semaine,
+  - Comme les fuites sur le net le suggèrent,
+  - Aux Etats-Unis,
+  - On vous en parlait il y a quelques temps,
+  - Cela fait le buzz en ce moment,
+  - On en parle beaucoup ces derniers temps,
+  - Cela risque de ne pas plaire à certains,
+cause_action:
+  - vues les
+  - peu importe les
+  - après avoir assimilé les
+  - pour dépasser les
+  - pour comprendre les
+  - au bout de l'analyse des
+  - après avoir décrypté les
+  - où que mènent les
+  - quoi qu'on dise concernant les
+cause_name:
+  - évolutions
+  - améliorations
+  - spécifications
+  - fonctionnalités
+  - features
+  - dégradations
+  - recherches
+  - études
+  - expériences
+  - levées de fonds
+  - initiatives
+cause_adjective:
+  - actuelles
+  - précédentes
+  - futures
+  - variables
+  - anticipées
+  - diverses
+  - exceptionnelles
+  - spectaculaires
+  - possibles
+  - à venir
+  - inattendues
+  - planifiées
+cause_link:
+  - dans la
+  - concernant la
+  - affectant la
+  - sur la
+  - dans le domaine de la
+  - impliquant la
+  - en rapport avec la
+  - changeant la
+cause_topic:
+  - sécurité des big data,
+  - technologie des QR codes,
+  - viralité organique,
+  - tendance des objets connectés,
+  - norme NFC,
+  - géolocalisation par beacons,
+  - réalité virtuelle,
+  - poussée du drive to store,
+  - réalité augmentée,
+  - fiabilité du cloud,
+  - nouvelle version d'IOS,
+  - dernière mise à jour d'Android,
+  - reconnaisance faciale,
+  - publicité hyper-locale,
+effect_subject:
+  - Apple
+  - Samsung
+  - Facebook
+  - Google
+  - Twitter
+  - Amazon
+  - Microsoft
+  - Instagram
+  - Snapchat
+  - la plateforme de micro-blogging
+  - le siège de Mountain View
+  - la firme de Palo Alto
+  - le leader de la Silicon Valley
+  - la startup Californienne
+  - l'entreprise de Mark Zuckerberg
+  - le géant Coréen
+  - la CNIL
+effect_action:
+  - préconise
+  - recommande
+  - propose
+  - conseille
+  - annonce
+  - prône
+  - sollicite
+  - demande
+  - suggère
+  - exige
+  - réclame
+  - révendique
+effect_adjective:
+  - directement
+  - sans équivoque
+  - avec insistance
+  - fermement
+  - de façon claire
+  - sans compromis
+  - avec virulence
+  - intelligement
+  - sans hésiter
+  - avec appui
+  - encore
+  - une nouvelle fois
+effect_name:
+  - de la fermeté
+  - de la prudence
+  - de l'écoute
+  - du respect
+  - des contrôles
+  - du temps réel
+  - de l'application
+  - de l'objectivité
+  - de la lucidité
+  - des restrictions
+  - des assouplissements
+  - de la transparence
+  - de la réflexion
+  - de la patience
+effect_link:
+  - avec les
+  - à l'égard des
+  - envers les
+  - vis à vis des
+  - à l'encontre des
+  - pour les
+effect_topic:
+  - utilisateurs finaux.
+  - standards du web.
+  - outils de communication digitale.
+  - demandes client.
+  - ressources d'innovation digitale.
+  - community managers.
+  - leviers marketing.
+  - applications mobiles.
+  - réseaux sociaux.
+  - experts UX.
+  - data viz de données sensibles.
+  - tests unitaires.
+  - business angels.
+  - mobinautes.
+conclusion:
+  - Quelle sera la prochaine étape?
+  - Affaire à suivre, donc!
+  - A suivre...
+  - Nouveau concept ou simple buzz?
+  - A surveiller dans les prochains jours...
+  - Une belle idée, à moindre coût!
+  - Une jolie opportunité, au bon moment!
+  - Il va donc falloir vous y faire!
+  - Expérience à suivre donc.
+  - Simple et efficace.
+  - Idée révolutionnaire?
+  - Bluff ou coup de génie?
+hashtag:
+  - '#happy'
+  - '#love'
+  - '#like'
+  - '#innovation'
+  - '#hot'
+  - '#cool'
+  - '#smart'
+  - '#amazing'
+  - '#crazy'
+  - '#best'
+  - '#digital'
+  - '#fabulous'
+  - '#unbelievable'
+  - '#lol'
+  - '#excited'
+  - '#sad'
+  - '#disappointed'
+  - '#yolo'

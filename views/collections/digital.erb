@@ -1,0 +1,22 @@
+<% content_for :og_tags do %>
+  <meta property="og:title" content="<%= settings.pipotron[:name] %>" />
+  <meta property="og:description" content="<%= settings.pipotron[:description] %>" />
+  <meta property="og:url" content="<%= settings.pipotron[:url] %>" />
+  <meta property="og:image" content='<%= "#{settings.pipotron[:url]}/images/pipo.png" %>' />
+<% end %>
+
+<div id="pipo-list">
+  <div class="pipo row">
+    <div class="col-md-2 pipo-profile-container">
+      <img class="pipo-profile-pic img-circle pull-right" src="">
+    </div>
+    <div class="col-md-10 pipo-message-container">
+      <p class="pipo-message">Pipo</p>
+    </div>
+  </div>
+</div>
+<div>
+  <button id="btn-generate" class="btn btn-default btn-lg">Donnez-moi du rêve digital.</button>
+</div>
+
+<div class="fb-like" data-href="<%= settings.fb[:page_url] %>" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>

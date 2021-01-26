@@ -1,0 +1,32 @@
+.navbar-default {
+  background-color: initial;
+}
+
+body > .container {
+  margin-bottom: 50px;
+}
+
+.pipo {
+  display: none;
+  margin: 20px 0px;
+}
+
+.pipo-message {
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+.pipo-profile-pic {
+  margin: 5px;
+}
+
+#btn-generate {
+  display: block;
+  margin: auto;
+}
+
+.fb-like.fb_iframe_widget {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+}
